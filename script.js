@@ -1,14 +1,14 @@
 let captchachecked = false;
 function beforesumbit(event)
 {
-    if(captchachecked==true)
+    if(captchachecked)
     {
     let outputdate = document.querySelector(".outputdate");
     let inputdate = document.querySelector(".inputdate");  // string --> date( en_IN )
     let formattedDate = new Date(inputdate.value).toLocaleDateString("en-IN");
     outputdate.value = formattedDate;   
     }
-    else if(captchachecked==false)
+    else
     {
         alert("Please check the recApthchA");
         event.preventDefault();
