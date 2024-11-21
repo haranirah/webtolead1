@@ -17,8 +17,13 @@ input
 {
     width: 100%;
 }
+.g-recaptcha{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
 .submit{
-    margin:15px auto 0 auto;
+    margin:5px auto 0 auto;
     width:40%;
     background-color: rgb(127, 5, 184);
     border-radius: 5px;
@@ -29,4 +34,6 @@ form{
     margin: auto;
     border: 1px solid wheat;
     padding: 15px;
+    border-radius: 5px;
+    
 }
