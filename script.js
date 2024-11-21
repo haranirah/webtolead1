@@ -1,7 +1,7 @@
 let captchachecked = false;
 function beforesumbit(event)
 {
-    if(captchachecked=true)
+    if(captchachecked==true)
     {
     let outputdate = document.querySelector(".outputdate");
     let inputdate = document.querySelector(".inputdate");  // string --> date( en_IN )
